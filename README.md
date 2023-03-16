@@ -11,6 +11,30 @@ https://user-images.githubusercontent.com/117570113/225617351-5ec71f7a-1fcc-478e
 ![IOT1](https://user-images.githubusercontent.com/117570113/225619161-951a2ce4-aad2-4b8d-a663-84b9eaae799e.jpg)
 ![IOT3](https://user-images.githubusercontent.com/117570113/225619170-9ceba6e8-06e6-4812-801c-68fd56be0a04.gif)
 
+# Pre-requisites
+- Android Things compatible board - Arduino Uno
+- 3 x jumper wires
+- 1 x LED
+- 1 x Sound sensor
+- Power supply cable
+
+## Setup and build
+
+### Configurare hardware
+Conectam modulul senzor de sunet la placa Arduino Uno astfel:
+
+- Pinul "VCC" al senzorului de sunet se conecteaza la pinul 5V al placii Arduino
+- Pinul "OUT" al senzorului de sunet se conecteaza la pinul digial 2 al placii Arduino
+- Pinul "GND" al senzorului de sunet se conecteaza la pinul "GND" al placii Arduino
+
+Conectam LED-ul la placa Arduino Uno astfel:
+- Anodul (+) al LED-ului se conecteaza la pinul digital 13 al placii Arduino
+- Catodul (-) al LED-ului se conecteaza la pinul "GND" al placii Arduino
+
+### Configurare software
+Instalam mediul Arduino IDE de pe site-ul oficial
+Deschidem IDE-ul si din "Tools" selectam placa Arduino UNO si portul corespunzator prin care realizam conexiunea
+
 ## Video with sound
 
 https://user-images.githubusercontent.com/117570113/225617407-68da03f6-e799-40d6-ab7c-57f48d7c480c.mp4
@@ -49,5 +73,3 @@ void loop() {
 
 }
 ```
-
-test
